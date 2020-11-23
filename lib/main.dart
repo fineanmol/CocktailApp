@@ -13,9 +13,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "New App",
       theme: ThemeData(
-          primarySwatch: myColor,
-          accentColor: Colors.cyan,
-          fontFamily: "Candara"),
+        primarySwatch: myColor,
+        accentColor: Colors.cyan,
+        // fontFamily: "Candara"),
+      ),
       home: HomePage(),
     );
   }
